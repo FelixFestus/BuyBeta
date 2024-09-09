@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    background-color: aquamarine;
+
+}
+.logo{
+    background-color: aquamarine;
+    height: 10vh;
+    padding-left: 5rem;
+  
+   
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 25rem;
+    padding-top: 10rem;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 3rem;
+    color: brown;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    background-color: brown;
+    color: aquamarine;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+.two{
+    width: 100%;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    width: 70%;
+}
+.about h3{
+    font-size: 7rem;
+    color: brown;
+    font-weight: 900;
+    text-align: center;
+
+}
+.about p{
+    font-size: 3.5rem;
+    color: brown;
+    padding-top: 5rem;
+    text-align: center;
+}
+.three{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding: 10rem;
+}
+.service{
+    width: 40%;
+    padding-top: 15rem;
+}
+.service h2{
+    font-size: 4rem;
+    color: navy;
+}
+.service p{
+    padding-top: 3rem;
+    font-size: 2.5rem;
+}
+.simg{
+    padding-left: 5rem;
+    width: 60%;
+}
+.four{
+    display: flex;
+    
+    background-color: black;
+    color: aquamarine;
+    padding-top: 10rem;
+    width: 100%;
+    height: 40vh;
+}
+.vision{
+    width: 40%;
+}
+.vision h3{
+    font-size: 4rem;
+    padding-left: 10rem;
+}
+.vision p{
+    font-size: 3rem;
+    width: 70%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+.getin{
+    width: 35%;
+}
+.getin h3{
+    width: 40%;
+    font-size: 3rem;
+
+}
+.getin p{
+    font-size: 3rem;
+    width: 70%; 
+}
+.follow{
+    width: 25%;
+}
+.follow h3{
+    font-size: 4rem;
+}
+.follow p{
+    font-size: 4rem;
+}
+.follow .p1:hover{
+    font-size: 4.5rem;
+}

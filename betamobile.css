@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 35.5%;
+}
+header{
+    width: 100%;
+    height: 20vh;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: column;
+    background-color: aquamarine;
+
+}
+.logo{
+    background-color: aquamarine;
+    height: 10vh;
+    padding-left: 5rem;
+  
+   
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+   
+    padding-top: 10rem;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1rem;
+    color: brown;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    background-color: brown;
+    color: aquamarine;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.herot{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.herot h4{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.herot h1{
+    width: 40%;
+    color: aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+.herot button{
+    background-color: aquamarine;
+    color: brown;
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-weight: 600;
+}
+.herot button:hover{
+    background-color: rgb(15, 170, 118);
+    color: brown;
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: 600;
+}
+.one{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: brown;
+
+}
+.oimg{
+    width: 100%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+   
+}
+.otext{padding-left: 10rem;
+    width: 100%;
+    padding-top: 15rem;
+}
+.otext h6{
+    color: navy;
+    font-size: 2rem;
+}
+.otext h2{
+    font-size: 3rem;
+}
+.otext p{
+    font-size: 3.5rem;
+    color: rgb(224, 218, 218);
+}
+.two{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: aquamarine;
+}
+.get{
+    width: 100%;
+   
+}
+.get h6{
+    font-size: 2rem;
+    color: navy;
+}
+.get h2{
+    font-size: 3rem;
+}
+.get p{
+    width: 100%;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.gimg{
+    width: 100%;
+    padding-top: 5rem;
+}
+.three{
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+.wimg{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3rem;
+}
+.wtext{
+    width: 100%;
+    
+    padding-top: 10rem;
+}
+.wtext h3{
+    font-size: 2.5rem;
+    color: navy;
+}
+.wtext p{
+    font-size: 2rem;
+    color: gray;
+  
+    padding-top: 3rem;
+}
+.four{
+    display: flex;
+    
+    background-color: black;
+    color: aquamarine;
+    padding-top: 10rem;
+    width: 100%;
+    height: 40vh;
+}
+.vision{
+    width: 40%;
+}
+.vision h3{
+    font-size: 3rem;
+    padding-left: 10rem;
+}
+.vision p{
+    font-size: 2rem;
+    width: 70%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+.getin{
+    width: 35%;
+}
+.getin h3{
+    width: 40%;
+    font-size: 2rem;
+
+}
+.getin p{
+    font-size: 2rem;
+    width: 70%; 
+}
+.follow{
+    width: 25%;
+}
+.follow h3{
+    font-size: 3rem;
+}
+.follow p{
+    font-size: 2rem;
+}
+.follow .p1:hover{
+    font-size: 3.5rem;
+}
